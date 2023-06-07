@@ -120,3 +120,17 @@ weighted avg       0.75      0.63      0.66     22106
 
 ------------------
 11
+
+
+
+
+
+---RandomForestClassifier---
+              precision    recall  f1-score   support
+
+           0       0.83      0.85      0.84     17547
+           1       0.35      0.31      0.33      4559
+
+    accuracy                           0.74     22106
+   macro avg       0.59      0.58      0.58     22106
+weighted avg       0.73      0.74      0.73     22106
