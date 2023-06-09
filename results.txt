@@ -1,3 +1,4 @@
+KNeighborsClassifier(n_neighbors=k)
 ------------------
 1
 k =  2
@@ -134,3 +135,27 @@ weighted avg       0.75      0.63      0.66     22106
     accuracy                           0.74     22106
    macro avg       0.59      0.58      0.58     22106
 weighted avg       0.73      0.74      0.73     22106
+
+
+---Logistic Regression---
+              precision    recall  f1-score   support
+
+           0       0.85      0.69      0.76     17516
+           1       0.32      0.55      0.40      4590
+
+    accuracy                           0.66     22106
+   macro avg       0.59      0.62      0.58     22106
+weighted avg       0.74      0.66      0.69     22106
+
+
+
+
+---GradientBoosting Classifier---
+              precision    recall  f1-score   support
+
+           0       0.92      0.52      0.66     17516
+           1       0.31      0.83      0.45      4590
+
+    accuracy                           0.58     22106
+   macro avg       0.62      0.68      0.56     22106
+weighted avg       0.80      0.58      0.62     22106
